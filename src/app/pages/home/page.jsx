@@ -860,7 +860,7 @@ export default function ModernGallery() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.9, duration: 1 }}
-            className="text-lg md:text-xl max-w-2xl mx-auto leading-relaxed text-gray-700"
+            className="text-lg md:text-xl max-w-3xl mx-auto leading-relaxed text-gray-900"
           >
             Blue skies, warm sands and blazing sunsets… another day in paradise?
             At one of the finest beach hotels in Sri Lanka it sure is.

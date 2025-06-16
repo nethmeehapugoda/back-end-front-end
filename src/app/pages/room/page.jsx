@@ -16,6 +16,8 @@ import {
   CreditCard,
   ArrowRight,
   Sparkles,
+  View,
+  BeerIcon,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -56,6 +58,7 @@ const roomTypes = [
       { icon: Tv, label: "Smart TV" },
       { icon: Wifi, label: "High-speed Wi-Fi" },
       { icon: Users, label: "Butler service" },
+      {icon: View, label:"Better View"},
     ],
     featured: true,
     gradient: "from-amber-500 to-orange-500",
@@ -72,11 +75,13 @@ const roomTypes = [
     description:
       "Experience elevated comfort in our Premium Room where timeless design meets modern luxury. Thoughtfully curated for travelers who seek more, this room offers extra space, enhanced amenities, and an ambiance of quiet sophistication.",
     amenities: [
-      { icon: Bed, label: "Queen-size bed" },
+      { icon: Bed, label: "Queen-size Bed" },
       { icon: Coffee, label: "Mini-fridge & Workspace" },
-      { icon: Coffee, label: "Complimentary breakfast" },
+      { icon: Coffee, label: "Complimentary Breakfast" },
+      {icon:BeerIcon, label:"Mini Bar"},
       { icon: Tv, label: "Smart TV" },
       { icon: Wifi, label: "Wi-Fi" },
+      
     ],
     featured: false,
     gradient: "from-blue-500 to-cyan-500",
@@ -93,7 +98,7 @@ const roomTypes = [
     description:
       "Welcome to our Standard A/C Room, the perfect blend of comfort, simplicity, and value. Designed for a relaxing stay, this room features all the essentials, including a cozy bed, private bathroom, and efficient air conditioning.",
     amenities: [
-      { icon: Bed, label: "Double bed" },
+      { icon: Bed, label: "Double Bed" },
       { icon: Wind, label: "Air Conditioning" },
       { icon: Tv, label: "TV" },
       { icon: Wifi, label: "Wi-Fi" },
@@ -113,9 +118,10 @@ const roomTypes = [
     description:
       "Our Non-A/C Room offers a clean, comfortable space for travelers who appreciate simplicity and affordability. Designed with natural ventilation and thoughtful touches, it provides a peaceful atmosphere for rest and relaxation.",
     amenities: [
-      { icon: Wind, label: "Ceiling fan" },
-      { icon: Bed, label: "Basic furnishings" },
-      { icon: Coffee, label: "Free bottled water" },
+      { icon: Wind, label: "Ceiling Fan" },
+      { icon: Bed, label: "Basic Furnishings" },
+      { icon: Coffee, label: "Free bottled Water" },
+      { icon: Bath, label: "Private Bathroom" },
     ],
     featured: false,
     gradient: "from-purple-500 to-pink-500",
