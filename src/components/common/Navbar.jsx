@@ -435,7 +435,7 @@ const Navbar = () => {
             >
               <Link
                 href="/pages/auth"
-                className="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-6 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-1 active:translate-y-0"
+                className="bg-amber-500 hover:bg-amber-700 text-white font-bold py-2 px-6 rounded-lg transition-colors duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-1 active:translate-y-0"
               >
                 Login
               </Link>
