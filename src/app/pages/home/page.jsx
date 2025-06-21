@@ -852,7 +852,7 @@ export default function ModernGallery() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 1 }}
-            className="text-2xl md:text-4xl font-light mb-8 tracking-wider text-amber-800 font-serif"
+            className="text-2xl md:text-4xl font-light mb-8 tracking-wider text-amber-900 font-serif"
           >
             PARADISE AWAITS, STEP IN...
           </motion.h2>
